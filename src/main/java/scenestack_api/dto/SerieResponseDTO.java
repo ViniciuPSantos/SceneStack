@@ -15,6 +15,9 @@ public class SerieResponseDTO {
     @JsonAlias("Plot")
     private String plot;
 
+    @JsonAlias("Type")
+    private String type;
+
     @JsonAlias("imdbRating")
     private String imdbRating;
 
